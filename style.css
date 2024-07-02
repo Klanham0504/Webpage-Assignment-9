@@ -6,11 +6,17 @@
     src: url(Lexend/);
 }
 
+h1 {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    font-size: 40pt;
+    text-align: center;
 body {
     font-family: "Lexend", sans-serif;
 }
 
-h2, h3 {
+h1, h2, h3 {
     color: rgb(4, 81, 6);
     font-family: "Lexend", sans-serif;
     font-style: normal;
