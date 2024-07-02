@@ -6,29 +6,16 @@
     src: url(Lexend/);
 }
 
-/*formatting all of the spacing, fonts, sizes, and colors of the font
-   Also adding a background image
-*/
-
 body {
-    background-image: url(background.webp);
     font-family: "Lexend", sans-serif;
 }
 
-h1, h2, h3 {
+h2, h3 {
     color: rgb(4, 81, 6);
     font-family: "Lexend", sans-serif;
     font-style: normal;
-   
 }
 
-h1 {
-    margin-bottom: 0px;
-    padding-bottom: 10px;
-    margin-left: 10px;
-    font-size: 40pt;
-    text-align: center;
-}
 h2, ul, p {
     margin-left: 20px;
 }
@@ -75,7 +62,7 @@ hr.rounded {
     color: white; /* light text */
 }
 
-.dark-theme h1, 
+
 .dark-theme h2 {
     color: rgb(225, 186, 235);
 }
