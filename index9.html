@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html>
+    <head> <!-- link to the css code-->
+        <link rel="stylesheet" href="style9.css">
+        <title>Personal Bio</title>
+    </head>
+    
+    <body>
+
+        <button class="themebutton">Change Theme</button> <!-- creating a button to change the theme-->
+        
+        <!--Adding profile card to introduce myself and my interests-->
+        <div class="profile-card">
+    
+            <nav> <!-- adding a nav bar -->
+                <ul>
+                    <a href="#content">About Me</a>
+                    <a href="#content">Interests</a>
+                    <a href="#content">Favorites</a>
+                    <a href="#pics">Pictures</a>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="content">
+
+            <h2>About Me!</h2>
+           
+
+            <h2>Interests</h2>
+            <ul>
+                <li>Painting</li>
+                <li>Photography</li>
+                <li>Reading</li>
+                <li>Growing Plants</li>
+                <li>Hiking</li>
+                <li>Music</li>
+            </ul>
+    
+
+            <h2>Favorites</h2>
+            <ul>
+                <h3>Book</h3>
+                Project Hail Mary by: Andy Weir
+                <h3>Plant</h3>
+                Pilea Pepermioides
+                <h3>Artist</h3>
+                Taylor Swift
+            </ul>
+        </div>
+        
+        <!-- Pictures related to interests and hobbies-->
+        <div id="pics">
+            <h2>Pics!</h2>
+            <hr class="rounded">
+            <img src="IMG_9306.jpg" alt="One of my paintings" width="500">
+
+      
+            <img src="IMG_9311.jpg" alt="A page from one of my favorite books 'Project Hail Mary' by Andy Weir" width="500">
+            <img src="IMG_9308.jpg" alt="My plant table" width="300">
+      
+        </div>
+        
+        <!--Java script for the theme button-->
+        <script>
+            document.querySelector('.themebutton').addEventListener('click', function() {
+                document.body.classList.toggle('dark-theme');
+            });
+        </script>
+
+   
+     
+    </body>
+
+</html>
